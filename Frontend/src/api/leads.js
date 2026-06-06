@@ -1,4 +1,4 @@
-const BASE = 'http://localhost:3000/api/leads';
+const BASE = '/api/leads';
 
 export const getLeads = async (params = {}) => {
   const query = new URLSearchParams(params).toString();

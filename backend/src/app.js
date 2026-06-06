@@ -10,7 +10,7 @@ app.use(express.json());
 
 connectDB();
 
-// React/Vite build serve karne ke liye
+
 app.use(express.static(path.join(__dirname, "..", "dist")));
 
 app.get("/{*splat}", (req, res) => {
